@@ -166,3 +166,11 @@ D:\ExeProjects\ReservationSystem\ReservationSystem\obj\Debug\net8.0\refint\Reser
 D:\ExeProjects\ReservationSystem\ReservationSystem\obj\Debug\net8.0\ReservationSystem.pdb
 D:\ExeProjects\ReservationSystem\ReservationSystem\obj\Debug\net8.0\ReservationSystem.genruntimeconfig.cache
 D:\ExeProjects\ReservationSystem\ReservationSystem\obj\Debug\net8.0\ref\ReservationSystem.dll
+D:\ExeProjects\ReservationSystem\ReservationSystem\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\ExeProjects\ReservationSystem\ReservationSystem\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\ExeProjects\ReservationSystem\ReservationSystem\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\ExeProjects\ReservationSystem\ReservationSystem\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\ExeProjects\ReservationSystem\ReservationSystem\bin\Debug\net8.0\Microsoft.Bcl.Memory.dll
+D:\ExeProjects\ReservationSystem\ReservationSystem\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+D:\ExeProjects\ReservationSystem\ReservationSystem\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+D:\ExeProjects\ReservationSystem\ReservationSystem\obj\Debug\net8.0\ReservationSystem.sourcelink.json
