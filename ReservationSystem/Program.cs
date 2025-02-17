@@ -36,6 +36,17 @@ builder.Services.AddAuthentication(options =>
     };
 });
 
+// Habilitar CORS para permitir peticiones desde cualquier origen
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAll", policy =>
+    {
+        policy.AllowAnyOrigin()
+              .AllowAnyMethod()
+              .AllowAnyHeader();
+    });
+});
+
 // Controladores
 builder.Services.AddControllers();
 

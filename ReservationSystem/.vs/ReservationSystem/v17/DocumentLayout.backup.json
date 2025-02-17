@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "D:\\ExeProjects\\ReservationSystem\\ReservationSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{904EAD77-B555-4091-B503-DD27A59F1D7C}|ReservationSystem.csproj|d:\\exeprojects\\reservationsystem\\reservationsystem\\migrations\\20250217131847_updatereservamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{904EAD77-B555-4091-B503-DD27A59F1D7C}|ReservationSystem.csproj|solutionrelative:migrations\\20250217131847_updatereservamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{904EAD77-B555-4091-B503-DD27A59F1D7C}|ReservationSystem.csproj|d:\\exeprojects\\reservationsystem\\reservationsystem\\controllers\\reservascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{904EAD77-B555-4091-B503-DD27A59F1D7C}|ReservationSystem.csproj|solutionrelative:controllers\\reservascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{904EAD77-B555-4091-B503-DD27A59F1D7C}|ReservationSystem.csproj|d:\\exeprojects\\reservationsystem\\reservationsystem\\models\\reserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{904EAD77-B555-4091-B503-DD27A59F1D7C}|ReservationSystem.csproj|solutionrelative:models\\reserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{904EAD77-B555-4091-B503-DD27A59F1D7C}|ReservationSystem.csproj|d:\\exeprojects\\reservationsystem\\reservationsystem\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{904EAD77-B555-4091-B503-DD27A59F1D7C}|ReservationSystem.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{904EAD77-B555-4091-B503-DD27A59F1D7C}|ReservationSystem.csproj|d:\\exeprojects\\reservationsystem\\reservationsystem\\models\\servicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{904EAD77-B555-4091-B503-DD27A59F1D7C}|ReservationSystem.csproj|solutionrelative:models\\servicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{904EAD77-B555-4091-B503-DD27A59F1D7C}|ReservationSystem.csproj|d:\\exeprojects\\reservationsystem\\reservationsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{904EAD77-B555-4091-B503-DD27A59F1D7C}|ReservationSystem.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{904EAD77-B555-4091-B503-DD27A59F1D7C}|ReservationSystem.csproj|d:\\exeprojects\\reservationsystem\\reservationsystem\\controllers\\servicioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{904EAD77-B555-4091-B503-DD27A59F1D7C}|ReservationSystem.csproj|solutionrelative:controllers\\servicioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,19 +26,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20250217131847_UpdateReservaModel.cs",
-              "DocumentMoniker": "D:\\ExeProjects\\ReservationSystem\\ReservationSystem\\Migrations\\20250217131847_UpdateReservaModel.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250217131847_UpdateReservaModel.cs",
-              "ToolTip": "D:\\ExeProjects\\ReservationSystem\\ReservationSystem\\Migrations\\20250217131847_UpdateReservaModel.cs",
-              "RelativeToolTip": "Migrations\\20250217131847_UpdateReservaModel.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAA5wAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "ServiciosController.cs",
+              "DocumentMoniker": "D:\\ExeProjects\\ReservationSystem\\ReservationSystem\\Controllers\\ServiciosController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ServiciosController.cs",
+              "ToolTip": "D:\\ExeProjects\\ReservationSystem\\ReservationSystem\\Controllers\\ServiciosController.cs",
+              "RelativeToolTip": "Controllers\\ServiciosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEsAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T13:18:48.164Z",
+              "WhenOpened": "2025-02-17T14:10:10.77Z",
               "EditorCaption": ""
             },
             {
@@ -49,35 +49,35 @@
               "RelativeDocumentMoniker": "Models\\Reserva.cs",
               "ToolTip": "D:\\ExeProjects\\ReservationSystem\\ReservationSystem\\Models\\Reserva.cs",
               "RelativeToolTip": "Models\\Reserva.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T13:12:49.116Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\ExeProjects\\ReservationSystem\\ReservationSystem\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\ExeProjects\\ReservationSystem\\ReservationSystem\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T12:59:42.847Z",
+              "WhenOpened": "2025-02-17T13:55:33.648Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "D:\\ExeProjects\\ReservationSystem\\ReservationSystem\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
-              "ToolTip": "D:\\ExeProjects\\ReservationSystem\\ReservationSystem\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "Controllers\\AuthController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAnAAAAAAAAAA==",
+              "Title": "Servicio.cs",
+              "DocumentMoniker": "D:\\ExeProjects\\ReservationSystem\\ReservationSystem\\Models\\Servicio.cs",
+              "RelativeDocumentMoniker": "Models\\Servicio.cs",
+              "ToolTip": "D:\\ExeProjects\\ReservationSystem\\ReservationSystem\\Models\\Servicio.cs",
+              "RelativeToolTip": "Models\\Servicio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T12:16:09.169Z",
+              "WhenOpened": "2025-02-17T13:54:44.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ReservasController.cs",
+              "DocumentMoniker": "D:\\ExeProjects\\ReservationSystem\\ReservationSystem\\Controllers\\ReservasController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ReservasController.cs",
+              "ToolTip": "D:\\ExeProjects\\ReservationSystem\\ReservationSystem\\Controllers\\ReservasController.cs*",
+              "RelativeToolTip": "Controllers\\ReservasController.cs*",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwC4AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T13:30:06.501Z",
               "EditorCaption": ""
             }
           ]

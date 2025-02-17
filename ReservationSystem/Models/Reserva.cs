@@ -9,11 +9,11 @@ namespace Reservation_System.Models
 
         [Required]
         public int UsuarioId { get; set; }
-        public required Usuario Usuario { get; set; }
+        public Usuario? Usuario { get; set; }
 
         [Required]
         public int ServicioId { get; set; }  // Relación con el servicio reservado
-        public required Servicio Servicio { get; set; }
+        public Servicio? Servicio { get; set; }
 
         [Required]
         public DateTime FechaHora { get; set; } // Fecha y hora de la reserva
@@ -21,5 +21,11 @@ namespace Reservation_System.Models
         [Required]
         [StringLength(20)]
         public string Estado { get; set; } = "Pendiente"; // Estados posibles: Pendiente, Confirmada, Cancelada
+
+        // Opcionales: Puedes agregar detalles extras si lo necesitas
+        public string? Detalles { get; set; }  // Información adicional sobre la reserva
+
+        // Podrías agregar más campos si es necesario (por ejemplo, comentarios)
+        public string? Comentarios { get; set; }
     }
 }
