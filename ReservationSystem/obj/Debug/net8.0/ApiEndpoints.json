@@ -79,6 +79,43 @@
   },
   {
     "ContainingType": "Reservation_System.Controllers.ReservasController",
+    "Method": "ModificarReserva",
+    "RelativePath": "api/Reservas/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "reserva",
+        "Type": "Reservation_System.Models.Reserva",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Reservation_System.Controllers.ReservasController",
+    "Method": "BorrarReserva",
+    "RelativePath": "api/Reservas/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Reservation_System.Controllers.ReservasController",
     "Method": "ValidarDisponibilidad",
     "RelativePath": "api/Reservas/validar",
     "HttpMethod": "GET",

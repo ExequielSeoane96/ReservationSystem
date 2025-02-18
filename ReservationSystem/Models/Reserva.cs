@@ -7,8 +7,7 @@ namespace Reservation_System.Models
         [Key]
         public int Id { get; set; }
 
-        [Required]
-        public int UsuarioId { get; set; }
+        public string UsuarioId { get; set; }
         public Usuario? Usuario { get; set; }
 
         [Required]

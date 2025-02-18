@@ -22,12 +22,6 @@ namespace ReservationSystem.Migrations
                 name: "IX_Reservas_UsuarioId",
                 table: "Reservas");
 
-            migrationBuilder.AddColumn<string>(
-                name: "UsuarioId1",
-                table: "Reservas",
-                type: "nvarchar(450)",
-                nullable: true);
-
             migrationBuilder.CreateTable(
                 name: "AspNetRoles",
                 columns: table => new
@@ -175,11 +169,6 @@ namespace ReservationSystem.Migrations
                 });
 
             migrationBuilder.CreateIndex(
-                name: "IX_Reservas_UsuarioId1",
-                table: "Reservas",
-                column: "UsuarioId1");
-
-            migrationBuilder.CreateIndex(
                 name: "IX_AspNetRoleClaims_RoleId",
                 table: "AspNetRoleClaims",
                 column: "RoleId");
@@ -217,22 +206,11 @@ namespace ReservationSystem.Migrations
                 column: "NormalizedUserName",
                 unique: true,
                 filter: "[NormalizedUserName] IS NOT NULL");
-
-            migrationBuilder.AddForeignKey(
-                name: "FK_Reservas_AspNetUsers_UsuarioId1",
-                table: "Reservas",
-                column: "UsuarioId1",
-                principalTable: "AspNetUsers",
-                principalColumn: "Id");
         }
 
         /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.DropForeignKey(
-                name: "FK_Reservas_AspNetUsers_UsuarioId1",
-                table: "Reservas");
-
             migrationBuilder.DropTable(
                 name: "AspNetRoleClaims");
 
@@ -253,14 +231,6 @@ namespace ReservationSystem.Migrations
 
             migrationBuilder.DropTable(
                 name: "AspNetUsers");
-
-            migrationBuilder.DropIndex(
-                name: "IX_Reservas_UsuarioId1",
-                table: "Reservas");
-
-            migrationBuilder.DropColumn(
-                name: "UsuarioId1",
-                table: "Reservas");
 
             migrationBuilder.CreateTable(
                 name: "Usuarios",
