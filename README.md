@@ -1,11 +1,15 @@
 🎟 Reservation System
+
 Sistema de gestión de reservas desarrollado con ASP.NET Core, Entity Framework Core y JWT para autenticación.
 
 🚀 Características
 
 📌 Autenticación y autorización con JWT
+
 📅 Gestión de reservas (crear y validar disponibilidad)
+
 🔍 Consulta de reservas con filtrado
+
 🔗 Integración con Entity Framework Core y base de datos SQL Server
 
 🛠 Tecnologías
@@ -16,8 +20,10 @@ Autenticación: JWT (JSON Web Tokens)
 Herramientas: Visual Studio, Postman (para pruebas de API)
 
 ⚡ Instalación y configuración
+
 1️⃣ Clonar el repositorio
 git clone https://github.com/ExequielSeoane96/ReservationSystem.git
+
 2️⃣ Configurar la base de datos
 En appsettings.json, asegúrate de configurar correctamente la cadena de conexión a tu base de datos SQL Server:
 
